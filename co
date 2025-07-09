@@ -1,0 +1,82 @@
+#tamrin 1
+
+# print("Hello World")
+
+
+
+
+
+#tamrin 2
+
+# x = 'Hi this is a string'
+# lower = x.lower()
+# list = lower.split()
+# print(list) 
+
+
+
+
+
+#tamrin 3
+
+# my_list = [1, 2, 3, 4, 5]
+# my_list.remove(3)
+# my_list.append(10)
+# print(my_list)
+
+
+
+
+
+#tamrin4
+
+# fruit_prices = {"apple":1500, "banana":1000, "orange": 1200} 
+# fruit_prices["banana"]=1100
+# del fruit_prices["apple"]
+# print(fruit_prices)
+
+
+
+
+#tamrin5
+
+# coordinates = (4, 3)
+# x = (0,0)
+# x1,y1 = coordinates
+# x2,y2 = x
+# distance =((x2-x1)**2+(y2-y1)**2)
+# print(distance)
+
+
+
+
+
+#tamrin6
+
+# SetA = {1, 2, 3, 4}
+# SetB = {3, 4, 5, 6}
+# u = SetA.union(SetB)
+# i =SetA.intersection(SetB)
+# print(u)
+# print(i)
+
+
+
+
+# tamrin7
+  
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# # result = a < b <=c
+# result = (a<b) and (b<=c)
+# print(result)
+
+
+
+
+# tamrin8
+
+mablagh = int(())
+if mablagh > 50000:
+    takhfif =
