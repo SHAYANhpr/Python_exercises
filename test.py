@@ -396,15 +396,15 @@
 #     def __init__(self, page):
 #         self.pages = page
 
-mybook = book(540)
-print(mybook.pages)
+# mybook = (540)
+# print(mybook.pages)
 
-class person:
-    def __init__(self, name):
-        self.name = name
+# class person:
+#     def __init__(self, name):
+#         self.name = name
 
-p = person("ali")
-print(p.name)
+# p = person("ali")
+# print(p.name)
 
 
 
