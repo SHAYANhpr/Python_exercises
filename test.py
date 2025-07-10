@@ -411,4 +411,134 @@
 
 
 
+# class book():
+#     def __init__(self , name, page):
+#         self.pages = page
+#         self.name = name
+#     def open(self):
+#         print(f'opened the {self.name} which has ({self.pages}) pages')
 
+# b1 = book("cpro..." , 230)
+# b1.open()
+
+
+# class darsi(book):
+#     def __init__(self, reshte, paye, name, page):
+#         book .__init__(self , name, page)
+#         print('a new darsi book')
+#         self.reshte = reshte
+#         self.paye = paye
+#     def open(self):
+#         print(f'opened {self.name} of {self.reshte} psye {self.paye}')
+
+# d = darsi('reyazi' , 200 ,'tajrobi' , 3)
+# d = open()
+
+
+# class ruuner():
+#     def __init__(self , name):
+#         self.name = name
+#     def action(self):
+#         print(f'{self.name} is ruuning')
+
+# sara = ruuner('sara')
+# sara.action()
+
+# class cyclist():
+#     def __init__(self , name):
+#         self.name = name
+#     def action(self):
+#         print(f'{self.name} is biking')
+
+# amir = cyclist('amir')
+# amir.action()
+
+# for person in {amir , sara}:
+#     person.actine()
+
+#     print(person)
+
+
+
+# class book():
+#     def __init__(self , name='unknow', page=0):
+#         self.pages = page
+#         self.name = name
+#     def open(self):
+#         print(f'opened the {self.name} which has ({self.pages}) pages')
+
+#     def __len__(self):
+#         return self.pages
+#     def __str__(self):
+#         r = f'{self.name} , {self.pages}'
+#         return r
+#     def __del__(self):
+#         print(f"oh the {self.name} book is vanisshing!")
+
+
+
+# b = book("reyazi" , page=230)
+# print(len(b))
+# print(b)
+# print(del(b))
+
+# class Car:
+#     def __init__(self, brand):
+#         self.brand = brand
+
+#     def __str__(self):
+#         return f"Car brand: {self.brand}"
+
+# my_car = Car("Toyota")
+# print(my_car)
+
+
+# tamrin21
+# class animal:
+#     zoo_name = "iran Zoo"  
+
+#     def __init__(self, name, species, age, sound):
+#         self.name = name
+#         self.species = species
+#         self.age = age
+#         self.sound = sound
+
+#     def make_sound(self):
+#         print(f"{self.name} mige: {self.sound}")
+
+#     def info(self):
+#         print(f"Name: {self.name}")
+#         print(f"Species: {self.species}")
+#         print(f"Age: {self.age}")
+#         print(f"Zoo: {animal.zoo_name}")
+
+#     def __str__(self):
+#         return f"{self.name} ({self.species}) - Age: {self.age}, Sound: {self.sound}"
+
+
+# class Bird(animal):
+#     def __init__(self, name, species, age, sound, wing_span):
+#         super().__init__(name, species, age, sound)
+#         self.wing_span = wing_span 
+
+#     def make_sound(self):
+#         print(f"{self.name} jir jir kardan: {self.sound}")
+
+#     def info(self):
+#         super().info()
+#         print(f"Wing Span: {self.wing_span} cm")
+
+
+# print("animal Example:")
+# shir = animal("shir", "gorbesan", 5, "woooooow")
+# print(shir)           
+# shir.make_sound()
+# shir.info()
+
+# print("\nBird Example:")
+# parrot = Bird("mina", "prande", 3, "oooooo", 20)
+# print(parrot)
+# parrot.make_sound()
+# parrot.info()
+
+        
