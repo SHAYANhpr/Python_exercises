@@ -541,4 +541,13 @@
 # parrot.make_sound()
 # parrot.info()
 
-        
+
+def divis(a,b):
+    try:
+        return a/b
+    except:
+        print("Error")
+        return None
+    
+print(divis(1,2))
+print(divis(3,0))
