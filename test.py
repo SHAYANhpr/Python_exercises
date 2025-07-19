@@ -542,12 +542,105 @@
 # parrot.info()
 
 
-def divis(a,b):
-    try:
-        return a/b
-    except:
-        print("Error")
-        return None
+# def divis(a,b):
+#     try:
+#         return a/b
+#     except:
+#         print("Error")
+#         return None
     
-print(divis(1,2))
-print(divis(3,0))
+# print(divis(1,2))
+# print(divis(3,0))
+
+
+
+# def countc(s, c):
+#     found = 0
+#     for i in range(len(s)):
+#         if s[i] == c:
+#             found += 1
+#     return found
+
+# print(countc("jadi jaan", "a"))
+
+
+
+
+
+
+
+
+# def divide(a, b):
+#     try:
+#         result = a / b
+#         return result
+#     except ZeroDivisionError:
+#         print("Error: taghsim bar sefr emkan pazir nist.")
+#         return None
+
+# while True:
+#     try:
+#         num1 = int(input("Enter the number 1: "))
+#         num2 = int(input("Enter the number 2: "))
+#         result = divide(num1, num2)
+#         if result is not None:
+#             print("Result:", result)
+#             break
+#     except ValueError:
+#         print("Error: faghat adad vared konid.")
+#     finally:
+#         print("barname ba movafaghiat egra shod!\n")
+
+# def decorator(func):
+#     def wrapper():
+#         print("Before function call")
+#         func()
+#         print("After function call")
+#     return wrapper
+
+# @decorator
+# def say_hello():
+#     print("Hello!")
+
+# say_hello() 
+
+# import time
+
+# def zaman_begir(func):
+#     def wrapper(n):
+#         start = time.time()
+#         result = func(n)
+#         end = time.time()
+#         print("zaman ejra:", end - start, "sanie")
+#         return result
+#     return wrapper
+
+# @zaman_begir
+# def list_besaz(n):
+#     return list(range(1, n+1))
+
+# n = int(input(" adad n ra vared konid : "))
+# lst = list_besaz(n)
+# print(" tol list tolid shode:", len(lst))
+ 
+
+# n = range(10)
+# print(n)
+
+
+# def my_generator():
+#     yield 1
+#     yield 2
+#     yield 3
+
+# gen = my_generator()
+# print(next(gen))
+# print(next(gen))
+
+
+# def count_up():
+#     for i in range(3):
+#         yield i
+
+# gen = count_up()
+# print(list(gen))
